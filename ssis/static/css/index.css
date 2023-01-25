@@ -1,0 +1,39 @@
+body{
+    background-image: url('../images/cute.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.container{
+    max-width: 900px;
+    position:sticky;
+}
+.row{
+    background-color: rgb(209, 149, 188);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px rgb(229, 123, 245);
+}
+#main-image{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100px;
+    background-color : #81f1f9b5;
+    color: rgb(45, 3, 52);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color : pink;
+    color: lightblue;
+    border: 2px solid lightblue;
+}
