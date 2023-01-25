@@ -33,8 +33,8 @@
                 <div class="col-lg-5">
                     <div class="col-lg-7 px-5 pt-5"></div>
                     {% block header_text %}
-                    <h1 style="font-family:'Courier New', Courier, monospace;">Welcome!</h1>
-                    <h6 style= "font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";>Login to start session!</h6>
+                    <h1 style="font-family:'Courier New', Courier, monospace;">Sign in to SSIS!</h1>
+                    <h6 style= "font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";>Authenticate yourself, Please enter your username and password!</h6>
                     {% endblock %}
                     <form action="{{ url_for("admin.verify") }}" method="post">
                         <!--Username entry field-->
